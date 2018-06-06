@@ -1,0 +1,21 @@
+#H3_1 {
+    box-sizing: border-box;
+    color: rgb(94, 97, 109);
+    font-kerning: normal;
+    height: 34px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-decoration: none solid rgb(94, 97, 109);
+    text-rendering: optimizeLegibility;
+    width: 1051px;
+    word-wrap: break-word;
+    column-rule-color: rgb(94, 97, 109);
+    perspective-origin: 525.5px 17px;
+    transform-origin: 525.5px 17px;
+    caret-color: rgb(94, 97, 109);
+    border: 0px none rgb(94, 97, 109);
+    font: normal normal 300 normal 36px / 34px europa, sans-serif;
+    margin: 0px 0px 36px;
+    outline: rgb(94, 97, 109) none 0px;
+}
+
