@@ -33,8 +33,11 @@ function itterateObject (data) {
                     console.log(blog[property2])
                     addBlogLinkElement(blog[property2], title);
                 }
-                else {
-               //addBlogElement (blog[property2]);
+                if (property2 === 'keywords'){
+                    let array = blog[property2];
+                    for( let i = 0; i < array.length; i++){
+                        addBlogElement(array[i]);
+                    }
                 }
             }
         }
@@ -78,7 +81,7 @@ function addNameElement (info) {
     document.body.insertBefore(newDiv, currentDiv); 
   }
 
-  function addBLogLinkElement (info, articleTitle) { 
+  function addBlogLinkElement (info, articleTitle) { 
     console.log('hello')
     var newDiv = document.createElement("a"); 
     newDiv.href = info;
